@@ -1,12 +1,12 @@
-'use client';  // This is important to mark this component as client-side rendered
+'use client';  
 
-import { useRouter } from 'next/navigation';  // Import from 'next/navigation'
+import { useRouter } from 'next/navigation';  
 
 const Footer: React.FC = () => {
-  const router = useRouter(); // Using useRouter from next/navigation
+  const router = useRouter(); 
 
   const handleNavigation = (url: string) => {
-    window.open(url, '_blank'); // Opens links in a new tab
+    window.open(url, '_blank'); 
   };
 
   return (
